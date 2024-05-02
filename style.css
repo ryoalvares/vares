@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo {
+    position: relative;
+    font-style: bold;
+    padding-left: 100px;
+    color: rgb(61, 165, 209);
+}
+.navigasi {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    padding-left: 500px;
+}
+
+.navigasi a {
+    text-decoration: none;
+    color: black;
+}
+
+.navHome:hover {
+    color: rgb(61, 165, 209);
+    cursor: pointer;
+}
+.navAbout:hover {
+    color: rgb(61, 165, 209);
+    cursor: pointer;
+}
+.navServices:hover {
+    color: rgb(61, 165, 209);
+    cursor: pointer;
+}
+.navContack:hover {
+    color: rgb(61, 165, 209);
+    cursor: pointer;
+}
+
+
+#home{
+    padding-top: 80px;
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.content1 {
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.content2 {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+img {
+    width: 580px;
+}
+.p {
+    width: 400px;
+}
+.click1 {
+    background-color: rgba(0, 76, 255, 0.619);
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+.click1 p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 9px;
+    color: rgb(0,------ 0, 0);
+}
+.click1 p:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+#about {
+    background-color: rgba(186, 218, 255, 0.24);
+    padding-bottom: 150px;
+    padding-top: 10px;
+}
+
+
+.judul {
+    text-align: center;
+    padding-top: 100px;
+    color: 0;
+}
+
+.content3 {
+    display: flex;
+    position: relative;
+    padding-top: 80px;
+}
+
+.img2 {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 100px;
+} 
+
+.img2 img {
+    position: relative;
+    left: 50px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(66, 133, 162, 0.479);
+}
+
+.content4 {
+    padding-left: 300px;
+    padding-right: 180px;
+}
+
+
+.judulServices {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.judulServices p {
+    position: relative;
+    margin-top: 50px;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.services1 {
+    background-color: rgb(22, 76, 138);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 0px 25px 0px 25px;
+    color: white;
+    box-shadow: 5px 5px 5px 2px rgba(66, 133, 162, 0.479);
+}
+.services1 img {
+    width: 100px;
+    position: relative;
+    top: 40px;
+}
+.services1 h3  {
+    margin-top: 60px;
+}
+
+#services p {
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+.services2 {
+    background-color: rgb(22, 76, 138);
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px 5px 2px rgba(66, 133, 162, 0.479);
+}
+.services2 img {
+    width: 100px;
+    position: relative;
+    top: 40px;
+}
+.services2 h3  {
+    margin-top: 60px;
+}
+
+
+.services3 {
+    background-color: rgb(22, 76, 138)  ;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 25px 0px 25px 0px;
+    color: white;
+    box-shadow: 5px 5px 5px 2px rgba(66, 133, 162, 0.479);
+}
+.services3 img {
+    width: 100px;
+    position: relative;
+    top: 40px;
+}
+.services3 h3  {
+    margin-top: 60px;
+}
+
+
+.servicesClick {
+    background-color: rgba(0, 76, 255, 0.619);
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+    margin-bottom: 150px;
+    position: relative;
+    left: 630px;
+}
+.servicesClick:hover {
+    cursor: pointer;
+}
+
+.servicesClick p {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 9px;
+    color: white;
+}
+
+#contack {
+    background-color: rgba(186, 218, 255, 0.24);
+}
+
+.contack-judul {
+    text-align: center;
+    padding: 100px;
+}
+
+.contack-judul h1 {
+    font-size: 30px;
+}
+
+.contack-judul p {
+    margin-top: 20px;
+}
+
+.contack-content {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 100px;
+}
+
+.contack-content-satu {
+    width: 300px;
+    height: 330px;
+    background-color: rgba(49, 49, 125, 0.943);
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);
+}
+
+.contack-content-satu img {
+    width: 100px;
+    height: 100px;
+    margin-left: 85px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.contack-satu-nama {
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    padding: 20px;
+    border-radius: 15px 0 15px 15px;
+}
+
+
+.contack-content-dua {
+    width: 300px;
+    height: 330px;
+    background-color: rgba(49, 49, 125, 0.943);
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);
+}
+
+.contack-content-dua img {
+    width: 100px;
+    height: 100px;
+    margin-left: 85px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.contack-dua-nama {
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    padding: 20px;
+    border-radius: 15px 0 15px 15px;
+}
+
+
+.contack-content-tiga {
+    width: 300px;
+    height: 330px;
+    background-color: rgba(49, 49, 125, 0.943);
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 3px rgb(0, 0, 0, 0.5);    
+}
+
+.contack-content-tiga img {
+    width: 100px;
+    height: 100px;
+    margin-left: 85px;
+    padding: 15px;
+    border-radius: 100%;
+}
+
+.contack-tiga-nama {
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    padding: 20px;
+    border-radius: 15px 0 15px 15px;
+}
+
+
+footer {
+    background-color: rgba(9, 32, 231, 0.6);
+    height: 200px;
+    padding: 20px;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+footer img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+footer h3 {
+    position: relative;
+    margin-left: 600px;
+    bottom: 150px;
+    width: 600px;
+    color: rgba(240, 248, 255, 0.521);
+}
+
+footer p {
+    text-align: center;
+    background-color: rgba(62, 62, 163, 0);
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+footer h1 {
+    color: rgb(230, 231, 236);
+}
+
+
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+}
+
+.back-to-top img {
+    width: 30px;
+    padding: 10px;
+}
